@@ -66,3 +66,7 @@ pois ele mostra uma formatação no navegado igual de uma IDE
 
 --> React Dev Tools
 Para poder ver a linguagem de um site em React invés de HTML usamos está extensão
+
+--> Octotree
+Octotree é uma extensão onde com ele conseguimos criar uma guia de navegação
+da IDE nos navegadores de internet
