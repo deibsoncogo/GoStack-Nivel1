@@ -1,0 +1,21 @@
+------> 2. Ambiente de desenvolvimento
+Nessa fase iremos configurar as ferramentas que serão essenciais para construir
+as aplicações durante a jornada como o nosso editor de código, plugins, tema,
+extensões do navegador e ferramentas de desenvolvimento.
+
+----> 1. Node & Yarn
+--> Instanlando Node
+A versão LTS são mais seguras na questão de bugs, travamentos e erros em geral
+O melhor métodos de realizar a instalação é pelo gerenciador de pacotes
+Ao instalar ele teremos acesso tambem ao NPM e o NPX
+Primeiro instalamos o Chocolatey 
+  Abra o Power Shell
+  Execute o comando para ver o status da maquina: Get-ExecutionPolicy
+  Se retornar restricted execute este comando: Set-ExecutionPolicy AllSigned
+  Para instalar o Chocolatey: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+  Quando perguntar de autorização para executar tudo: a
+  Para verificar a versão: choco -v
+
+Execute o comando abaixo para instalar a versão LTS: choco install nodejs-lts
+Quando perguntar de autorização para executar tudo: a
+Para verificar a versão: node -v npm -v npx -v
