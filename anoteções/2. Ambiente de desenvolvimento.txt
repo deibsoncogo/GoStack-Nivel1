@@ -12,10 +12,19 @@ Primeiro instalamos o Chocolatey
   Abra o Power Shell
   Execute o comando para ver o status da maquina: Get-ExecutionPolicy
   Se retornar restricted execute este comando: Set-ExecutionPolicy AllSigned
-  Para instalar o Chocolatey: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+  Para instalar o Chocolatey: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://Chocolatey.org/install.ps1'))
   Quando perguntar de autorização para executar tudo: a
   Para verificar a versão: choco -v
 
 Execute o comando abaixo para instalar a versão LTS: choco install nodejs-lts
 Quando perguntar de autorização para executar tudo: a
 Para verificar a versão: node -v npm -v npx -v
+
+--> Instalando Yarn
+Yarn é um gerenciador de pacotes mais avança que o NPM
+Lembrando que devemos ter o Chocolatey isntlado
+Ative o modo desenvolvedor do equipamento
+Execute o comando para instalar: choco install yarn
+Quando perguntar de autorização para executar tudo: a
+Para criar ele globalmente: yarn global add create-react-app
+Para verificar a verção: yarn -v
