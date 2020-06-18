@@ -28,3 +28,10 @@ Execute o comando para instalar: choco install yarn
 Quando perguntar de autorização para executar tudo: a
 Para criar ele globalmente: yarn global add create-react-app
 Para verificar a verção: yarn -v
+
+----> Escrita de código
+--> Visual Studio Code
+A instalação desta IDE é bem simples, basta baixar a versão desejada e instalar
+Uma IDE muito boa para o JavaScript é o Visual Studio Code
+Fire Code é uma fonte onde seu melhora ponto de vista são os símbolo distintos mais o escrito fica muito junto
+Mais temos instruções na pasta de Programas/Programador
