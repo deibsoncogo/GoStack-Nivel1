@@ -79,3 +79,9 @@ desde umas anotações simples até complexas
 --> Whimsical
 Whimsical excelente para criação de fluxo grama por completo customizadas e também
 criar exemplo de aplicativos para os celulares
+
+--> DevDocs
+DevDocs é um centralizador de documentação de varias ferramentas
+Depois de instalar ele baixe os manuais do JacaScript, Mongoose, React e ReactNative
+Tambem da para acessar pelo site abaixo:
+  https://devdocs.io/
