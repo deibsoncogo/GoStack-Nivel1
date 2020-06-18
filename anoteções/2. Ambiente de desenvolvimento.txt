@@ -39,3 +39,6 @@ Mais temos instruções na pasta de Programas/Programador
 --> Terminal Oh My Zsh
 Esta configuração achei bem desnecessária pois é mais visual do que técnica
 Mais para realizar está configuração existe instruções no blog da Rocketseat
+
+--> Ubuntu
+É interessante realizar a instalação dele pois para finalizar o projeto vamos precisar
