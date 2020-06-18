@@ -85,3 +85,7 @@ DevDocs é um centralizador de documentação de varias ferramentas
 Depois de instalar ele baixe os manuais do JacaScript, Mongoose, React e ReactNative
 Tambem da para acessar pelo site abaixo:
   https://devdocs.io/
+
+--> Insomnia
+Insomnia é um programa que permite verificar os comando sem a interface mais ele
+não funciona em computadores da versão 32bits, com isso temos o Postman
