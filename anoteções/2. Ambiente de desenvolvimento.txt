@@ -75,3 +75,7 @@ da IDE nos navegadores de internet
 --> Notion
 Ele é um site com aplicativo e programa para os organizar suas tarefas
 desde umas anotações simples até complexas
+
+--> Whimsical
+Whimsical excelente para criação de fluxo grama por completo customizadas e também
+criar exemplo de aplicativos para os celulares
