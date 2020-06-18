@@ -58,3 +58,8 @@ Depois de instalar devemos executar estes comandos:
   git config --global user.name "Deibson Cogo"
 	git config --global user.email "EMAIL"
   git config --global user.email "deibsoncogo@outlook.com"
+
+----> 4. Extensões
+--> JSON Viewer
+Para poder visualizar as API que não retornam dados utilizaremos a Json Viewer
+pois ele mostra uma formatação no navegado igual de uma IDE
