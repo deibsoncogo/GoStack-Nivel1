@@ -9,3 +9,18 @@ Anotações são extremamente importantes para aprender as linguagens
 Montar um cronograma para estudo é muito importante
 A liberação dos módulos é gradual onde será liberado pela organização por semanas
 Durante as semanas terão desafios que darão brindes como canecas, camisas e outros
+
+--> Técnicas de aprendizado
+Como já dito anotações tem uma importância muito grande pois eles te ajudaram a
+aprender e também entendi para que um código que você já criou como funciona rápida
+
+Seguir as etapas são muito importantes, o método de ensino é baseado muito na pratica
+pois é melhor entender como funciona para depois entrar a fundo do funcionamento
+
+Codar é digitar os códigos da programação, realizar a codação durante o ensinamento
+vem muito como cada um achar melhor, o melhor método é com dois monitores
+
+Para realizar as coisa com mais facilidades é melhor dividir as tarefas em etapas
+procure se esforçar a cada dia para evoluir mais e não se comparando as outras pessoas
+realize os estudo em momento agradáveis onde você consiga prestar a tenção do conteúdo
+a técnica de Pomodoro diz que o programador tem que trabalhar por volta de 25 minutos e descansar 5
