@@ -35,3 +35,7 @@ A instalação desta IDE é bem simples, basta baixar a versão desejada e insta
 Uma IDE muito boa para o JavaScript é o Visual Studio Code
 Fire Code é uma fonte onde seu melhora ponto de vista são os símbolo distintos mais o escrito fica muito junto
 Mais temos instruções na pasta de Programas/Programador
+
+--> Terminal Oh My Zsh
+Esta configuração achei bem desnecessária pois é mais visual do que técnica
+Mais para realizar está configuração existe instruções no blog da Rocketseat
