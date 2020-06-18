@@ -29,7 +29,7 @@ Quando perguntar de autorização para executar tudo: a
 Para criar ele globalmente: yarn global add create-react-app
 Para verificar a verção: yarn -v
 
-----> Escrita de código
+----> 2. Escrita de código
 --> Visual Studio Code
 A instalação desta IDE é bem simples, basta baixar a versão desejada e instalar
 Uma IDE muito boa para o JavaScript é o Visual Studio Code
@@ -42,3 +42,9 @@ Mais para realizar está configuração existe instruções no blog da Rocketsea
 
 --> Ubuntu
 É interessante realizar a instalação dele pois para finalizar o projeto vamos precisar
+
+----> 3. Git/Github
+--> Instalando Git & Github
+Git é um sistema de controle de versão muito eficiente
+O Gitthub é um site onde você consegue salvar seus códigos e versões
+Para instalar basta executar o arquivo exe
