@@ -53,3 +53,19 @@ em cinco grupos como:
   3XX - Redirecionamento
   4XX - Erro do cliente
   5XX - Erro do servidor
+
+--> Criando projeto Node
+Para criar um programa com o arquivo essencial utilizamos o comando abaixo
+  yarn init -y
+
+A pasta src serve para falar que contem arquivos criados pelo programador
+Para instalar algums biblioteca com o Yarn utilizamos este comando
+  yarn add NOME-DA-BIBLIOTECA
+
+Para instalar o Express utilizamos exatamente este comando
+  yarn add express
+
+Para acessar um programa em desenvolvendo costumamos o seguinte endereço e porta
+  http://localhost:3333
+
+Um json deve sempre ser retornado como uma array ou objeto
