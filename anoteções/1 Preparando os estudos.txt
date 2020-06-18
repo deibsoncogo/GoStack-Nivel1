@@ -24,3 +24,10 @@ Para realizar as coisa com mais facilidades é melhor dividir as tarefas em etap
 procure se esforçar a cada dia para evoluir mais e não se comparando as outras pessoas
 realize os estudo em momento agradáveis onde você consiga prestar a tenção do conteúdo
 a técnica de Pomodoro diz que o programador tem que trabalhar por volta de 25 minutos e descansar 5
+
+--> Fixando o conhecimento
+Ressaltando mais uma que é necessário realizar anotações durante as aulas
+
+Um bom desenvolvedor é aquele que possui onde recorrer para criar seus programas
+pois é difícil lembrar de todos os códigos, construir projetos aleatórios para
+melhorar o conhecimento e mostrar que consegue criar coisas próprias
