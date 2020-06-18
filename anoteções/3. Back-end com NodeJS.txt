@@ -1,0 +1,27 @@
+Nível 01
+
+------> 3. Back-end com NodeJS
+Nesse módulo iremos conhecer os primeiros conceitos do Node.js e aplicá-los na
+construção da nossa primeira aplicação backend
+
+----> 1. Back-end com NodeJS
+--> Conceitos NodeJS
+O Node.JS permite usar JavaScript com a metodologia de backend e fontend
+  Backend é tudo que o cliente não enxerga
+  Frontend é tudo aquilo que é visivel pelo usuário
+
+Ele é construído encima do V8 que é a maquina que roda o Chrome
+O NPM e o Yarn são programas que disponibiliza a utilização de bibliotecas no programas
+Mais o Yarn está se desenvolvendo mais rápido assim se tornando melhor que o NPM
+O Node possui a arquitetura chamada de Event-loop que é uma cadeia de eventos
+Ele funciona baseando-se de eventos (Call Stack) e possui um formato de uma pilha
+que quer dizer que o último evento recebido será o primeiro a ser executado
+
+Ele também é single-thread onde isso quer dizer que ele executa em somente um thread no processador
+Outro ponto importante dele é que também possui Non-blocking I/O com isso quando o cliente
+faz uma requisição não precisamos retornar todos os dados sem perder a conexão
+
+O frameworks que mais utilizaremos é o ExpressJS pois ele não tem uma opinião (Estrutura aberta)
+Ótimo para iniciar pois ele possui micro framework que possui poucas funcionalidades que executam seus deveres com perfeição
+É muito utilizado em micro serviços como a divisão do código em grupos
+Outros frameworks mais utilizado mas opinados é o AdonisJS e o NestJS
