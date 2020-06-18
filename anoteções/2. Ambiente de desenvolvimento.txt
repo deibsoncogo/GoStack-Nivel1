@@ -48,3 +48,13 @@ Mais para realizar está configuração existe instruções no blog da Rocketsea
 Git é um sistema de controle de versão muito eficiente
 O Gitthub é um site onde você consegue salvar seus códigos e versões
 Para instalar basta executar o arquivo exe
+
+--> Configurações Git
+Para alterar as configurações do Git é necessário usar o comando abaixo
+  .gitconfig
+  
+Depois de instalar devemos executar estes comandos:
+	git config --global user.name "NOME"
+  git config --global user.name "Deibson Cogo"
+	git config --global user.email "EMAIL"
+  git config --global user.email "deibsoncogo@outlook.com"
