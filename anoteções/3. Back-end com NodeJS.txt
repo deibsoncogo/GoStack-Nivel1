@@ -25,3 +25,31 @@ O frameworks que mais utilizaremos é o ExpressJS pois ele não tem uma opinião
 Ótimo para iniciar pois ele possui micro framework que possui poucas funcionalidades que executam seus deveres com perfeição
 É muito utilizado em micro serviços como a divisão do código em grupos
 Outros frameworks mais utilizado mas opinados é o AdonisJS e o NestJS
+
+--> Conceitos API REST
+Uma API funciona a partir de uma requisição de um cliente, a resposta retorna através
+de uma estrutura de dados e o cliente recebe a resposta e processa o resultado
+
+As rotas utilizam métodos HTTP para fazer alguma coisa com as informações como:
+  GET: Busca
+  POST: Criar
+  PUT: Alterar
+  DELETE: Deletar
+
+O endereço de um site possui nomes como (GET http://api.com/1/users?page=2):
+  Método: GET http://api.com/
+  Route: company/
+  Route params: 1/
+  Route: users
+  Query params: ?page=2
+
+A estrutura de dados utilizada se chama JavaScript Object Notation (JSON) como podemos ver abaixo na imagem
+Os Query Params são visíveis na URL do site onde para a autenticação de algo isso é rui,
+pois, a senha vai ficar exposta, para evitar isso usamos os métodos Body, todos os comandos
+retornar um HTTP code que é o conjunto de um número com 3 dígitos, eles são classificados
+em cinco grupos como:
+  1XX - Informacional
+  2XX - Sucesso
+  3XX - Redirecionamento
+  4XX - Erro do cliente
+  5XX - Erro do servidor
