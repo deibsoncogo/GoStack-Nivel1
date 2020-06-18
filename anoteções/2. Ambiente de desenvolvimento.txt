@@ -63,3 +63,6 @@ Depois de instalar devemos executar estes comandos:
 --> JSON Viewer
 Para poder visualizar as API que não retornam dados utilizaremos a Json Viewer
 pois ele mostra uma formatação no navegado igual de uma IDE
+
+--> React Dev Tools
+Para poder ver a linguagem de um site em React invés de HTML usamos está extensão
