@@ -109,3 +109,9 @@ depois cole o tema dentro da pasta plugins
 clique no botão para atualisar o plugin e ative o tema em themes
 
 Ele permite a criar de variável como valor padrão clicando em environments
+
+--> Tipos de Parâmetros
+Existe três tipos onde eles são formas do servidor coletar os devolver alguma informação
+  Query params: É mais utilizado para filtragens ou paginação, é usado somente com o get
+  Route params: Identificar recursos no momento de atualizar ou deletar
+  Requesto body: Conteúdo na hora criar ou editar um recurso como uma ficha de cadastro (JSON)
