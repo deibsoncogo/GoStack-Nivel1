@@ -29,7 +29,7 @@ app.put('/projetos/:id', (request, response) => { //PUT = ALTERAR
   return response.json([
     'Projeto 4',
     'Projeto 2',
-    'Proejto 3',
+    'Projeto 3',
   ]);
 });
 

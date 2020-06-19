@@ -96,3 +96,16 @@ Criamos um atalho para executar o Nodemon
   PUT: Alterar várias informações
   PATCH: Alterar uma informação
   DELETE: Deletar alguma informação
+
+--> Utilizando o Insomnia
+Com o Insomnia conseguimos verificar todos métodos de HTTP
+Ele é de código aberto, utilizando o JavaScript para sua criação e tambem
+utiliza o Electon por baixo dos panos e funciona somente com 64 bits
+
+Para os computadores de 32 bits temos o Postman
+A instalação dele é por um instalador mesmo e utilizo o tema Dracula onde
+para instalar o tema abra preferencias, plugins e show plugins folder
+depois cole o tema dentro da pasta plugins
+clique no botão para atualisar o plugin e ative o tema em themes
+
+Ele permite a criar de variável como valor padrão clicando em environments
