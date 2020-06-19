@@ -89,3 +89,10 @@ o arquivo main no packge.json, assim podemos executar somente o nodemon
 O Visual Studio Code permite criar atalhos (Scripts) no arquivo packge.json
 Criamos um atalho para executar o Nodemon
   yarn dev
+
+--> Métodos HTTP
+  GET: Buscar alguma informação
+  POST: Criar alguma informação
+  PUT: Alterar várias informações
+  PATCH: Alterar uma informação
+  DELETE: Deletar alguma informação
