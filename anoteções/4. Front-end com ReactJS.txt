@@ -74,3 +74,17 @@ A dependencia abaixo serve para atualizar o servidor ao alterar algum arquivo
 
 Para iniciar o servidor de atualizarção automatica usamos o comando abaixo
   yarn webpack-dev-server --mode development
+
+--> Componentização
+Componentização é o pode de conseguir dividir algo onde com isso podemos repetir
+um cabeçalho para ficar igual a topas páginas ou remover algo sem prejudicar outra coisa
+
+Existe um padrão de utilizar a primeira letra em maiúscula nos arquivos de componente
+pois assim identificamos com facilidade todos componentes
+
+O código é uma função que retornar HTML e sempre teremos que importar o react e exportar
+Para utilizar mais de um comando precisa criar um “grupo”, colocar um comando HTML
+entre eles, existe o método normal e o fragment lembrando que o método normal
+separa o código da função que ele está
+  Normal: <div><div/>
+  Fragment: <></>

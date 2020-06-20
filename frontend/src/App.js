@@ -1,0 +1,18 @@
+//COLOCAR A PRIMEIRA LETRA EM MAIUSCULA PARA COMPONENTES
+//APP E UM COMPONENTE PRINCIPAL, OS DEMIAS DEVEM SER CRIADOS NA PASTA
+
+import React from 'react'; //SEMPRE REALIZAR ESTA IMPORTACAO
+
+import Header from './components/Header';
+
+function App() { //FUNCAO COMPONENTE
+  return( //PARA UTILIZAR MAIS DE UM COMANDO PRECISAR CRIAR UM "GRUPO" FRAGMENT OU NAO
+    <> {/* INICIO DO METODO FRAGMENT */}
+      <h1>Hello World</h1>
+      <Header />
+      <Header />
+    </> /* TERMINO DO METODO FRAGMENT */
+  );
+}
+
+export default App; //SEMPRE REALIZAR A EXPORTACAO
