@@ -1,0 +1,33 @@
+Nível 01
+
+------> 4. Front-end com ReactJS
+Agora continuaremos na nossa jornada, conhecendo os primeiros conceitos do ReactJS
+Desenvolveremos a nossa primeira aplicação web e vamos conecta-la no backend que
+criamos no último módulo
+
+----> 1. Front-end com ReactJS
+--> Conceitos ReactJS
+React é uma biblioteca para construção de interfaces, ele pode ser chamado de framework
+Tudo que o usuário enxerga pode ser criado por ele
+Também é utilizado para a construção de Single-Page
+Tudo que utilizarmos fica dentro do JavaScript
+  React: Se refere somente a sua biblioteca
+  ReactJS: É o comportamento do programa com o navegador
+  React Native: É combinação do React normal com outro programa nativo
+
+Uma das vantagens dele é a organização do código utilizando a componentização que é
+a divisão dos itens da tela onde se removermos um item os demais iram funcionar
+
+A divisão de responsabilidade é a criação do backend para as regras de negócio e frontend
+para a interface do usuário, isso facilita a criação de uma API para varias plataformas
+
+A programação declarativa (Falamos qual resultado queremos) é melhor que a imperativa
+(O programador precisa dizer cada passo do que fazer)
+
+O JSX permite escreve HTML dentro de um programa com JavaScript
+
+O browser não entende todo esse código com isso usamos o Babel e o Webpack
+O Babel converte o código JS de uma forma que o browser entenda
+O Webpack cria o bundle (Arquivo com todo código da aplicação), ensina ao JavaScript como
+improtar arquivos (CSS, imagens e outros), realiza live reload com o Webpack Dev Serve
+Atualiza o programa)
