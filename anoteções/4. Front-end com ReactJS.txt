@@ -90,8 +90,7 @@ separa o código da função que ele está
   Fragment: <></>
 
 --> Propriedades
-Ela é quando informamos algo dentro da função vinculado a um componente mais esta
-informação não está dentro do componente assim quando ela for executada mostrara
-os comandos principais mais as informações extra
-
+Ela é algo que informamos dentro de um comando HTML difernciando
 Para utilizar um comando Java dentro do HTML utilize parênteses
+Para chamar todos tipos de propriedades usamos o comando abaixo
+  props
