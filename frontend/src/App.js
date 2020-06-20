@@ -3,14 +3,25 @@
 
 import React from 'react'; //SEMPRE REALIZAR ESTA IMPORTACAO
 
-import Header from './components/Header';
+import CabecalhoComponente from './components/Cabecalho';
 
 function App() { //FUNCAO COMPONENTE
   return( //PARA UTILIZAR MAIS DE UM COMANDO PRECISAR CRIAR UM "GRUPO" FRAGMENT OU NAO
     <> {/* INICIO DO METODO FRAGMENT */}
       <h1>Hello World</h1>
-      <Header />
-      <Header />
+      <CabecalhoComponente titulo='Tipos'> {/* titulo E UMA PROPRIEDADE */}
+        <ul> {/* CRIA UM MENU */}
+          <li>React</li> {/* CRIA UMA LINHA PARA O MENU */}
+          <li>ReactJS</li>
+          <li>React Native</li>
+        </ul>
+      </CabecalhoComponente>
+      <CabecalhoComponente titulo='Linguagem'>
+        <ul>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+        </ul>
+      </CabecalhoComponente>
     </> /* TERMINO DO METODO FRAGMENT */
   );
 }

@@ -88,3 +88,10 @@ entre eles, existe o método normal e o fragment lembrando que o método normal
 separa o código da função que ele está
   Normal: <div><div/>
   Fragment: <></>
+
+--> Propriedades
+Ela é quando informamos algo dentro da função vinculado a um componente mais esta
+informação não está dentro do componente assim quando ela for executada mostrara
+os comandos principais mais as informações extra
+
+Para utilizar um comando Java dentro do HTML utilize parênteses

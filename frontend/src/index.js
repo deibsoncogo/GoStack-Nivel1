@@ -1,8 +1,6 @@
-//IMPORTANDO EXTENSOES
 import React from 'react';
 import { render } from 'react-dom';
 
-//IMPORTANDO COMPONENTES
 //DIZ QUE O ARQUIVO A IMPORTAR ESTA NA MESMA PASTA DESTE ARQUIVO: ./
 import App from './App';
 
