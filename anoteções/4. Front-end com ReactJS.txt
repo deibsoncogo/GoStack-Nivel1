@@ -28,6 +28,33 @@ O JSX permite escreve HTML dentro de um programa com JavaScript
 
 O browser não entende todo esse código com isso usamos o Babel e o Webpack
 O Babel converte o código JS de uma forma que o browser entenda
-O Webpack cria o bundle (Arquivo com todo código da aplicação), ensina ao JavaScript como
-improtar arquivos (CSS, imagens e outros), realiza live reload com o Webpack Dev Serve
-Atualiza o programa)
+O Webpack cria o bundle (Arquivo com todo código da aplicação), ensina ao JavaScript
+como improtar arquivos (CSS, imagens e outros), realiza live reload com o
+Webpack Dev Serve (Atualiza o programa)
+
+--> Configurando Babel
+Utilizamos o comando abaixo para criar a base do programa
+  yarn init -y
+
+Para iniciar a programação vamos precisar instalar as dependencias abaixos onde
+precisamos dele do ReactDom para pode configurar a arvore de elemento
+  yarn add react react-dom
+
+Para criar a base de html usamos o comando abaixo
+  html:5
+
+O Babel vai converter (Transpilar) o código do React para um código que o browser entenda
+O Webpack vai converter os arquivos de formatos diferentes de formas diferentes
+Com isso existe os loaders para cada tipo de arquivo
+Utilizamos os comandos abaixo para realizar a instalação dos tipos de Babel e Webpack
+  yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli @babel/cli
+
+Para realizar configurações do Babel precisamos criar um arquivo chamado assim
+  babel.config.js
+
+Temos o site abaixo que mostra todos tipos de configuração
+  https://babeljs.io/docs/en/configuration#babelconfigjson
+
+Para executar a converção podemos usar o seguinte comando informando o nome
+do arquivo a ser convertido e onde deve ser criado
+  yarn babel src/index.js --out-file public/bundle.js
