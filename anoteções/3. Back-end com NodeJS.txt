@@ -115,3 +115,7 @@ Existe três tipos onde eles são formas do servidor coletar os devolver alguma 
   Query params: É mais utilizado para filtragens ou paginação, é usado somente com o get
   Route params: Identificar recursos no momento de atualizar ou deletar
   Requesto body: Conteúdo na hora criar ou editar um recurso como uma ficha de cadastro (JSON)
+
+--> Aplicação funciona
+Para criar um ID automaticamente podemos utilizar o UUIDV4
+  yarn add uuidv4
