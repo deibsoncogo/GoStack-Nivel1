@@ -58,3 +58,19 @@ Temos o site abaixo que mostra todos tipos de configuração
 Para executar a converção podemos usar o seguinte comando informando o nome
 do arquivo a ser convertido e onde deve ser criado
   yarn babel src/index.js --out-file public/bundle.js
+
+--> Configurando Webpack
+Para realizar configurações do Webpack precisaremos do arquivo abaixo
+  webpack.config.js
+
+Precisamos tambem instalar a dependencia abaixo
+  yarn add babel-loader
+
+Comando para executar a conversão dos arquivos com o Webpack
+  yarn webpack --node development
+
+A dependencia abaixo serve para atualizar o servidor ao alterar algum arquivo
+  yarn add webpack-dev-server -D
+
+Para iniciar o servidor de atualizarção automatica usamos o comando abaixo
+  yarn webpack-dev-server --mode development
