@@ -119,3 +119,14 @@ Existe três tipos onde eles são formas do servidor coletar os devolver alguma 
 --> Aplicação funciona
 Para criar um ID automaticamente podemos utilizar o UUIDV4
   yarn add uuidv4
+
+--> Middlewares
+O Middlewaresback é um interceptador de requisições
+Com isso ele pode interromper a requisição ou altera a manipulação
+Ele é uma função que vai receber uma request e response, tambem pode receber next
+As funções de get, post e outros usado como rota também são middlewares
+Para fazer que um middlewares execute toda vez que um rota é ativa utilize o use
+  app.use(NOME-DO-MIDDLEWARES)
+
+E para evitar que a requisição seja interrompido devemos retornar o next
+  return next();
