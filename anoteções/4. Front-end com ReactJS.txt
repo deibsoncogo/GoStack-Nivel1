@@ -94,3 +94,9 @@ Ela é algo que informamos dentro de um comando HTML difernciando
 Para utilizar um comando Java dentro do HTML utilize parênteses
 Para chamar todos tipos de propriedades usamos o comando abaixo
   props
+
+--> Estado e Imutabilidade
+Devemos usar alguma palavra como handle para saber que aquela função ou classe será
+executado somente pelo usuário e não pelo sistema
+
+Imutabilidade é quando criamos novamente as informações invés de substituir elas
