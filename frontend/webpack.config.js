@@ -23,7 +23,32 @@ module.exports = {
         use: {
           loader: 'babel-loader', //INFORMA QUAL DEPENDENCIA UTILIZAR
         }
+      },
+
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [ //PARA DEFINIR MAIS DE UMA EXTENSAO ABRA []
+          {loader: 'style-loader'}, //INJETA O CSS NO HTML
+          {loader: 'css-loader'}, //LE OS ARQUIVOS CSS INCLUINDO AS IMPORTACOES
+        ]
+      },
+
+      { //PARA USAR MAIS DE UM TIPO DE ARQUIVO USAMOS: (extensao1 | extensao2 | extensao2)
+        //PARA IGNORAR SE TEM ALGUMA LETRA EM MAIUSCULA UTILIZE O COMANDO: i
+        //PARA TORNAR ALGO DISPENSAVEL UTILIZE O COMANDO: ?
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: {
+          loader: 'file-loader',
+        }
       }
     ]
   },
-}
+};
+
+/** EXPLICACAO DA REGRA CRIADA ACIMA
+* ELA DEFINIR QUE QUANDO PRECISAR DE UM ARQUIVO
+* JAVASCRIPT (.js) COM UMA VERSAO ANTIGA E ELE
+* NAO ESTIVER NA PASTA node_modules REALISE A
+* CONVERSAO DELE UTILISANDO O babel-loader
+*/

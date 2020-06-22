@@ -3,6 +3,9 @@
 
 import React, { useState } from 'react'; //SEMPRE REALIZAR ESTA IMPORTACAO
 
+import './App.css'; //IMPORTACAO DO ARQUIVOS DE ESTILOS
+
+import BackgroundImagem from './assets/fundo1.png';
 import CabecalhoComponente from './components/Cabecalho';
 
 function App() { //FUNCAO COMPONENTE
@@ -37,6 +40,8 @@ function App() { //FUNCAO COMPONENTE
 
         <button type="button" onClick={handleAdicionarProjeto}>Adicionar projeto</button>
       </CabecalhoComponente>
+      {/* width DEFINE O TAMANHO DA IMAGEM */}
+      <img width={300} src={BackgroundImagem} alt="Importando uma imagem" />
     </> /* TERMINO DO METODO FRAGMENT */
   );
 }

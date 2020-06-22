@@ -100,3 +100,18 @@ Devemos usar alguma palavra como handle para saber que aquela função ou classe
 executado somente pelo usuário e não pelo sistema
 
 Imutabilidade é quando criamos novamente as informações invés de substituir elas
+
+--> Importando CSS e imagens
+Para executar esta aula serão necessárias as seguintes dependencias
+  yarn add style-loader css-loader
+
+Comando para executar a API para teste (Atallho: dev)
+  webpack-dev-server --mode development
+
+Comando para executar a API como final (Atalho: build)
+  webpack --node production
+
+Para poder carregar arquivos dentro do programa utilizar o File Loader
+  yarn add file-loader
+
+Toda vez que realizarmos uma alterações no webpack devemos reiniciar o servidor

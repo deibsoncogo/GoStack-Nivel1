@@ -1,0 +1,14 @@
+/* ESTE ARQUIVO DEFINE AS CONFIGURACOES DE FORMATACAO */
+
+* { /* DEFINE ESTAS CONFIGURACOES PARA TUDO */
+  /* margin: 0; */
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body { /* DEFINE ESTA CONFIGURACOES PARA OQUE ESTIVER DENTRO DO body */
+  background-color: #f5f5f5;
+  font: 14px sans-serif;
+  color: #333333;
+}
