@@ -125,3 +125,7 @@ O useEffect serve para disparar funções
 A dependencia abaixo ser como uma ferramenta de segurança para o backend
 expecifindo quais frontend podem enviar requisições para ele
   yarn add cors
+
+--> Cadastrando projetos
+Permite a utilização dos comandos async e await
+  yarn add @babel/plugin-transform-runtime

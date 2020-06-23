@@ -5,4 +5,7 @@ module.exports = {
      //ADICIONA AS FUNCIONALIDADES BASEANDO NA VERSAO DO AMBIENTE DE TRABALHO
     '@babel/preset-react',
   ],
+  plugins: [
+    '@babel/plugin-transform-runtime'
+  ]
 };

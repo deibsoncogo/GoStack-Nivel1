@@ -23,13 +23,21 @@ function App() { //FUNCAO COMPONENTE
     ApiServicos.get('projetos').then(response => {
       setProjetos(response.data);
     });
-  }, [projetos]);
+  }, []);
 
   // handle NOS AVISA QUE ESTA FUNCAO E EXECUTADA PELO USUARIO
-  function handleAdicionarProjeto() {
+  async function handleAdicionarProjeto() {
     //ESCREVER DENTRO DE `` PERMITE MESCLAR TEXTO COM VARIAVEIS
     // projetos.push(`Novo projeto ${ Date.now() }`);
-    setProjetos([...projetos, `Novo projeto ${ Date.now() }`]);
+    // setProjetos([...projetos, `Novo projeto ${ Date.now() }`]);
+    const response = await ApiServicos.post('projetos', {
+      titulo: `Novo projeto ${ Date.now() }`,
+      proprietario: "Visual Studi Code"
+    });
+
+    const projeto = response.data;
+
+    setProjetos([...projetos, projetos]);
   }
 
   return( //PARA UTILIZAR MAIS DE UM COMANDO PRECISAR CRIAR UM "GRUPO" FRAGMENT OU NAO
