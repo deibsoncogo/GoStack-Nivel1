@@ -1,0 +1,22 @@
+------> Mobile com React Native
+Partimos para o mundo do mobile, conhecendo os conceitos do React Native
+e desenvolvendo nossa primeira aplicação que irá se conectar com nosso backend
+
+----> Mobile com React Native
+--> Arquitetura React Native
+O React Native é a versão para o desenvolvimento mobile
+Com ele conseguimos utilizar multiplataforma dando manipulação específica para cada uma
+Possui uma interface nativa e não híbrida, o código não e transpilado (Conversão)
+
+Sua arquitetura é composta por JavaScript que utiliza o Metro Bundler (Packager) para
+monitorar os códigos tranformando ele em um Bundle, assim ele é enviado para o Bridge
+que uma ponte de comunição com os códigos nativo ao JavaScript e por último transforma
+ele para a plataforma de Android ou Ios
+
+Sua sintaxe possui uma declaração de componentes igual da web, não usamos HTML e sim
+componentes próprios, aplicamos estilos sem classes ou ID'S e todo texto é <Text/>
+não existe estilização própria
+
+Expo é um SDK com um conjunto de funcionalidades prontas para usar (Câmera, vídeo)
+Não é necessário configurar emulador mais possui um limitador do código nativo
+Várias bibliotecas não tem suporte para ele, mais da para instalar funções específica
