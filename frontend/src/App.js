@@ -16,28 +16,36 @@ function App() { //FUNCAO COMPONENTE
   //ELA CRIA UM ARRAY COM DOIS CAMPOS DA CADA INFORMACAO
   //NO PRIMEIRO SERA O VALOR ATUAL E NO OUTRO O NOVO
   //AO VINCULA COM O BACKEND ESTE METODO NAO FUNCIONA MAIS POIS DEVE INICIAR EM BRANCO
-  // const [projetos, setProjetos] = useState(['Desenvolvimento de app', 'Front-end web']);
-  const [projetos, setProjetos] = useState([]);
+  const [projetosBackend, setProjetosBackend] = useState([]);
+  const [projetosFrontend, setProjetosFrontend] = useState(['Desenvolvimento de app', 'Front-end web']);
 
+  //POSSUI DUAS ESTANCIAS ONDE A PRIMEIRA E QUEM VAI SER EXECUTADO E A OUTRA QUANDO
   useEffect(() => {
+    //get E O METODO A SER UTILISADO E DEPOIS LISTA O ENDEREDO DEPOIS DA VIRGULA
+    //then SERVE COMO UMA PAUSA ATE O COMANDO ANTERIOR TERMINAR DE EXECUTAR
     ApiServicos.get('projetos').then(response => {
-      setProjetos(response.data);
+      setProjetosBackend(response.data);
     });
-  }, []);
+  }, [projetosBackend, projetosFrontend]);
 
   // handle NOS AVISA QUE ESTA FUNCAO E EXECUTADA PELO USUARIO
-  async function handleAdicionarProjeto() {
+  async function handleAdicionarProjetoBackend() {
     //ESCREVER DENTRO DE `` PERMITE MESCLAR TEXTO COM VARIAVEIS
-    // projetos.push(`Novo projeto ${ Date.now() }`);
-    // setProjetos([...projetos, `Novo projeto ${ Date.now() }`]);
+    // projetosBackend.push(`Novo projeto ${ Date.now() }`);
+    // setProjetosBackend([...projetosBackend, `Novo projeto ${ Date.now() }`]);
     const response = await ApiServicos.post('projetos', {
       titulo: `Novo projeto ${ Date.now() }`,
-      proprietario: "Visual Studi Code"
+      proprietario: "Backend"
     });
 
     const projeto = response.data;
 
-    setProjetos([...projetos, projetos]);
+    setProjetosBackend([...projetosBackend, projeto]);
+  }
+
+  function handleAdicionarProjetoFrontend() { //FUNCAO DE ACAO
+    //APLICACAO DA IMUTABILIDADE
+    setProjetosFrontend([...projetosFrontend, `Novo projeto ${Date.now()}`]);
   }
 
   return( //PARA UTILIZAR MAIS DE UM COMANDO PRECISAR CRIAR UM "GRUPO" FRAGMENT OU NAO
@@ -50,16 +58,23 @@ function App() { //FUNCAO COMPONENTE
           <li>React Native</li>
         </ul>
       </CabecalhoComponente>
-      <CabecalhoComponente titulo='Projetos'>
+      <CabecalhoComponente titulo='Projetos Backend'>
         <ul>
           {/* key DEFINE UM CODIGO UNICO PARA O ITEN */}
-          {/* {projetos.map(projetos => <li key={projetos}>{projetos}</li>)} */}
-          {projetos.map(projetos => <li key={projetos.id}>{projetos.titulo}</li>)}
+          {projetosBackend.map(projetosBackend => <li key={projetosBackend.id}>{projetosBackend.titulo}</li>)}
         </ul>
 
-        <button type="button" onClick={handleAdicionarProjeto}>Adicionar projeto</button>
+        <button type="button" onClick={handleAdicionarProjetoBackend}>Adicionar projeto backend</button>
+      </CabecalhoComponente>
+      <CabecalhoComponente titulo='Projetos Frontend'>
+        <ul>
+          {projetosFrontend.map(projetosFrontend => <li key={projetosFrontend}>{projetosFrontend}</li>)}
+        </ul>
+
+        <button type="button" onClick={handleAdicionarProjetoFrontend}>Adicionar projeto frontend</button>
       </CabecalhoComponente>
       {/* width DEFINE O TAMANHO DA IMAGEM */}
+      <br/><br/> {/* CRIA DUAS LINHAS EM BRANCO */}
       <img width={300} src={BackgroundImagem} alt="Importando uma imagem" />
     </> /* TERMINO DO METODO FRAGMENT */
   );
