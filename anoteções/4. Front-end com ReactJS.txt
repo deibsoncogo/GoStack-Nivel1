@@ -115,3 +115,13 @@ Para poder carregar arquivos dentro do programa utilizar o File Loader
   yarn add file-loader
 
 Toda vez que realizarmos uma alterações no webpack devemos reiniciar o servidor
+
+--> Listando Projetos da API
+Para criar a conexão do frontend com o backend usamos a dependencia abaixo
+  yarn add axios
+
+O useEffect serve para disparar funções
+
+A dependencia abaixo ser como uma ferramenta de segurança para o backend
+expecifindo quais frontend podem enviar requisições para ele
+  yarn add cors

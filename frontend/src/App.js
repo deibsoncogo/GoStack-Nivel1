@@ -1,10 +1,13 @@
 //COLOCAR A PRIMEIRA LETRA EM MAIUSCULA PARA COMPONENTES
 //APP E UM COMPONENTE PRINCIPAL, OS DEMIAS DEVEM SER CRIADOS NA PASTA
 
-import React, { useState } from 'react'; //SEMPRE REALIZAR ESTA IMPORTACAO
+//useState REALIZA A IMPLEMENTACAO DE ESTADO E IMUTABILIDADE
+//useEffect REALIZAR A IMPLEMENTACAO DO GATINHO QUE ATIVA FUNCOES QUANDO SOLICITADO
+import React, { useState, useEffect } from 'react'; //SEMPRE REALIZAR ESTA IMPORTACAO
 
 import './App.css'; //IMPORTACAO DO ARQUIVOS DE ESTILOS
 
+import ApiServicos from './services/api'; //IMPORTACAO DO VINCULO COM O BACKEN
 import BackgroundImagem from './assets/fundo1.png';
 import CabecalhoComponente from './components/Cabecalho';
 
@@ -13,7 +16,14 @@ function App() { //FUNCAO COMPONENTE
   //ELA CRIA UM ARRAY COM DOIS CAMPOS DA CADA INFORMACAO
   //NO PRIMEIRO SERA O VALOR ATUAL E NO OUTRO O NOVO
   //AO VINCULA COM O BACKEND ESTE METODO NAO FUNCIONA MAIS POIS DEVE INICIAR EM BRANCO
-  const [projetos, setProjetos] = useState(['Desenvolvimento de app', 'Front-end web']);
+  // const [projetos, setProjetos] = useState(['Desenvolvimento de app', 'Front-end web']);
+  const [projetos, setProjetos] = useState([]);
+
+  useEffect(() => {
+    ApiServicos.get('projetos').then(response => {
+      setProjetos(response.data);
+    });
+  }, [projetos]);
 
   // handle NOS AVISA QUE ESTA FUNCAO E EXECUTADA PELO USUARIO
   function handleAdicionarProjeto() {
@@ -35,7 +45,8 @@ function App() { //FUNCAO COMPONENTE
       <CabecalhoComponente titulo='Projetos'>
         <ul>
           {/* key DEFINE UM CODIGO UNICO PARA O ITEN */}
-          {projetos.map(projetos => <li key={projetos}>{projetos}</li>)}
+          {/* {projetos.map(projetos => <li key={projetos}>{projetos}</li>)} */}
+          {projetos.map(projetos => <li key={projetos.id}>{projetos.titulo}</li>)}
         </ul>
 
         <button type="button" onClick={handleAdicionarProjeto}>Adicionar projeto</button>

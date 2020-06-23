@@ -1,8 +1,12 @@
 const express = require('express'); //REALIZAR A IMPORTACAO DE UMA BIBLIOTECA
+const cors = require('cors');
 const { uuid, isUuid } = require('uuidv4'); //IMPORTA UMA FUNCAO ESPECIFICA
 
 const app = express(); //CRIA UMA VARIAVEL PARA PODER UTILIZAR AS FERRAMENTAS DO EXPRESS
 
+app.use(cors({
+  // origin: 'http:/localhost:3000'
+}));
 app.use(express.json()); //ENSINA O EXPRESS A UTILIZAR JSON
 
 //TRANSFORMA UMA VARIAVEL EM BANCO DE DADOS
