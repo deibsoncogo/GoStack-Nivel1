@@ -20,3 +20,20 @@ não existe estilização própria
 Expo é um SDK com um conjunto de funcionalidades prontas para usar (Câmera, vídeo)
 Não é necessário configurar emulador mais possui um limitador do código nativo
 Várias bibliotecas não tem suporte para ele, mais da para instalar funções específica
+
+--> Configurando SDK
+Para desenvolver aplicativos para o iOS em um Mac basta instalar o Xcode
+Não é possível criar um emulador da Mac em outros sistemas operacionais
+No site abaixo existe instruções para realizar as instalaçãoes nescessárias
+  https://react-native.rocketseat.dev
+
+Depois devemos ativar o Yarn de forma global
+  yarn global add react-native-cli
+
+Utilize o primeiro comando abaixo para verificar se o celular está conectado
+  adb devices
+
+Use este comando para executar o servidor
+  yarn run react-native run-android
+
+Na configuração padrão ele utiliza a porta 8081
