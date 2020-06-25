@@ -65,3 +65,18 @@ computador com a porta separado por dois pontos, temos que configurar o IP uma v
 Para usar atalho dos comandos acimas usamos a última palavra com yarn
 Precisamos também ter código nativo no nosso API
 Ele possui a ferramenta Fast Reflex que atualiza somente oque foi alterado
+
+--> Diferenças do ReactJS
+Muitos comandos mudam como os comandos do react-native não possui valor
+semântico (Significado - categoria), eles também possuem formatação única e display flex
+
+Alguns comandos que conhecemos são escritos diferentes
+  view = div, footer, header, main, aside e section
+  text = p, span, strong, h1, h2, h3 e todos níveis de h
+  stylesheet serve para criar as formatações
+  statusbar permite modificar a barra de notificação
+
+Os comandos de estilização não são criados separadamente e utilizamos o StyleSheet
+para criar os estilo, as propriedades pode ser definida por qualquer nome
+
+Uma desvangem é que ele não possui herança de estilos
