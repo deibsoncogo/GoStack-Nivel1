@@ -30,10 +30,38 @@ No site abaixo existe instruções para realizar as instalaçãoes nescessárias
 Depois devemos ativar o Yarn de forma global
   yarn global add react-native-cli
 
-Utilize o primeiro comando abaixo para verificar se o celular está conectado
+Utilize o comando abaixo para verificar se o celular está conectado
   adb devices
 
 Use este comando para executar o servidor
   yarn run react-native run-android
 
 Na configuração padrão ele utiliza a porta 8081
+
+--> Criando novo projeto
+Para criar os arquivos base do projeto mobile utilize o comando abaixo
+  react-native init mobile
+
+Para usar o celular como emulador devemos ativar o depurador usb e depois conectar
+ele pelo cabo usb com o computador, ai na primeira execução será solicitado uma
+autorização de conexão
+
+Para saber se o celular está conectado usamos o comando abaixo, deve retornar device
+  adb devices
+
+Para executar o Metro Bundler separadamente
+  yarn react-native start
+
+E para executar o servidor como desenvolvimento temos estes comandos
+  yarn react-native run-android
+  yarn react-native run-ios
+
+Para ativar o conexão por wifi devemos executar o servidor com o celular conectado por
+cabo usb e saber o IP do computador, ai chacoalhe o celular para abrir o Developer Menu
+e depois abrir Settings, Debug server host & port for device informando o IP do
+computador com a porta separado por dois pontos, temos que configurar o IP uma vez
+  192.168.0.103:8081
+
+Para usar atalho dos comandos acimas usamos a última palavra com yarn
+Precisamos também ter código nativo no nosso API
+Ele possui a ferramenta Fast Reflex que atualiza somente oque foi alterado
