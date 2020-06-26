@@ -26,7 +26,7 @@ function App() { //FUNCAO COMPONENTE
     ApiServicos.get('projetos').then(response => {
       setProjetosBackend(response.data);
     });
-  }, [projetosBackend, projetosFrontend]);
+  }, []);
 
   // handle NOS AVISA QUE ESTA FUNCAO E EXECUTADA PELO USUARIO
   async function handleAdicionarProjetoBackend() {

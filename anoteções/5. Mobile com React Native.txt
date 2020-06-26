@@ -80,3 +80,17 @@ Os comandos de estilização não são criados separadamente e utilizamos o Styl
 para criar os estilo, as propriedades pode ser definida por qualquer nome
 
 Uma desvangem é que ele não possui herança de estilos
+
+--> Listando projetos da API
+Para criar o vinculo de dados do modile com o backend usaremos também o Axios
+  yarn add axios
+
+Para criar uma barra de rolagem podemos usar um dos comandos abaixo mais quando
+ativo os comandos de centralização não funcionam mais, a diferença entre eles
+é que o segundo é o melhor principalmente para montagem de listas grandes desde por
+comandos avançados que possui a que ele recupera somente as informações configurada
+  ScrollView
+  FlatList
+
+Para força que os itens fiquem dentro de um área segura temos o item abaixo
+  SafeAreaView
