@@ -1,8 +1,10 @@
-------> TypeScript
+Nível 01
+
+------> 6. TypeScript
 Vamos agora aprender os primeiros conceitos de TypeScript e aplicar nos
 projetos que já desenvolvemos até aqui
 
-----> TypeScript
+----> 1. TypeScript
 --> Por que TypeScript?
 Ela é uma linguagem baseada no JavaScript mais sua diferença é que ela possui
 a aplicação de tipagem e com ele conseguimos acessar as mais novas atualizações do Java
