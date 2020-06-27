@@ -59,3 +59,9 @@ Para ativar a tipagem do Express precisa realizar um importação, criar uma var
 Caso contrario temos que importar as tipagem e depois vincular como abaixo
   import {Request, Response} from 'express';
   export function nomeDaFuncao(request: Request, response: Response) {}
+
+--> Tipando objetos e vetores
+Uma função com muitos parametros vai gerar uma confunção de para que ser cada parametro,
+para evitar este problema geramos nomeação a eles, com isso precisa criar um objeto e
+definir o tipo do parametro aparte com uma variavel comando abaixo
+  interface
