@@ -45,7 +45,7 @@ function App() { //FUNCAO COMPONENTE
 
   function handleAdicionarProjetoFrontend() { //FUNCAO DE ACAO
     //APLICACAO DA IMUTABILIDADE
-    setProjetosFrontend([...projetosFrontend, `Novo projeto ${Date.now()}`]);
+    setProjetosFrontend([...projetosFrontend, `NPF ${Date.now()}`]);
   }
 
   return( //PARA UTILIZAR MAIS DE UM COMANDO PRECISAR CRIAR UM "GRUPO" FRAGMENT OU NAO

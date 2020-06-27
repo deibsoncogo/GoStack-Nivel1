@@ -94,3 +94,8 @@ comandos avançados que possui a que ele recupera somente as informações confi
 
 Para força que os itens fiquem dentro de um área segura temos o item abaixo
   SafeAreaView
+
+--> Criando novos projetos
+O item abaixo possui varios tipos onde todos começam por Touchable, cada um
+dele possui uma caracteristica exclusiva mais configuravel
+  Touchable
