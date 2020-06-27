@@ -1,0 +1,20 @@
+------> TypeScript
+Vamos agora aprender os primeiros conceitos de TypeScript e aplicar nos
+projetos que já desenvolvemos até aqui
+
+----> TypeScript
+--> Por que TypeScript?
+Ela é uma linguagem baseada no JavaScript mais sua diferença é que ela possui
+a aplicação de tipagem e com ele conseguimos acessar as mais novas atualizações do Java
+
+Tambem  possui as mesmas funcionalidades do Babel, converção do código para uma
+versão aceitavel
+
+O IntelliSense é a inteligencia da IDE onde mostra sugestões de código, para ativar
+apertamos o atalho abaixo, ele ainda vai mostrar itens já digitado
+  CTRL + ESPAÇO
+
+Com isso o TypeScript informa para o programador as especificações das variaveis
+Ele não transforma o JavaScript em uma linguagem autamente tipada pois
+será obrigado tipar as variaveis somente quando o usuário não consegue identificar
+o tipo que ela possui e suas configurações como obrigação
