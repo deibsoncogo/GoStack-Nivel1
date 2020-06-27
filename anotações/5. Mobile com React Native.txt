@@ -1,4 +1,4 @@
-Nível 01
+Rocketseat Bootcamp GoStack - Nível 1
 
 ------> 5. Mobile com React Native
 Partimos para o mundo do mobile, conhecendo os conceitos do React Native

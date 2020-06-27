@@ -1,4 +1,4 @@
-Nível 01
+Rocketseat Bootcamp GoStack - Nível 1
 
 ------> 3. Back-end com NodeJS
 Nesse módulo iremos conhecer os primeiros conceitos do Node.js e aplicá-los na

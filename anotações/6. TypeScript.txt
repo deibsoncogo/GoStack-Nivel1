@@ -1,4 +1,4 @@
-Nível 01
+Rocketseat Bootcamp GoStack - Nível 1
 
 ------> 6. TypeScript
 Vamos agora aprender os primeiros conceitos de TypeScript e aplicar nos

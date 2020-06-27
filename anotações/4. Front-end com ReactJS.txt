@@ -1,4 +1,4 @@
-Nível 01
+Rocketseat Bootcamp GoStack - Nível 1
 
 ------> 4. Front-end com ReactJS
 Agora continuaremos na nossa jornada, conhecendo os primeiros conceitos do ReactJS
