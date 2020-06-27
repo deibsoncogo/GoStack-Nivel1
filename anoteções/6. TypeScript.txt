@@ -18,3 +18,32 @@ Com isso o TypeScript informa para o programador as especificações das variave
 Ele não transforma o JavaScript em uma linguagem autamente tipada pois
 será obrigado tipar as variaveis somente quando o usuário não consegue identificar
 o tipo que ela possui e suas configurações como obrigação
+
+--> Configurando o projeto
+Para criar o arquivo base do todo programa usamos o comando abaixo
+  yarn init -y
+
+E devemos instalara o TypeScript em modo desenvolvimento
+  yarn add typescript -D
+
+Por terceiro instalador a depencia abaixo que é muito util
+  yarn add express
+
+O Visual Studio Code utiliza o TypeScript por debaixo dos panos com a instalção
+automatica de todos tipos de tipagem, quando usamos o TypeScript está função do
+Visual Studio Code fica inativa assim tendo que nos faça
+
+A instalação de uma tipagem deve ser no modo desenvolvimento como abaixo
+  yarn add -D @types/express
+
+O Node não conhece arquivos TypeScript, com isso para poder executalo temos que
+converter para JavaScript, para executar a converção utilisamos o comando abaixo
+  yarn tsc src/index.ts
+
+O comando acima pode apresentar erros se não realizarmos algumas configurações no
+arquivo mestre do TypeScript, para criar ele temos o comando abaixo
+  yarn tsc --init
+
+Para evitar que os arquivos convertidos fiquem juntos com os originais podemos
+ativar a configuração abaixo dentro do arquivo tsconfig.json informando o caminho
+  "outDir": "./dist",                       /* Redirect output structure to the directory. */
