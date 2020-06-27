@@ -47,3 +47,15 @@ arquivo mestre do TypeScript, para criar ele temos o comando abaixo
 Para evitar que os arquivos convertidos fiquem juntos com os originais podemos
 ativar a configuração abaixo dentro do arquivo tsconfig.json informando o caminho
   "outDir": "./dist",                       /* Redirect output structure to the directory. */
+
+--> Quando adicionar tipos
+O editor vai avisar quando esquecermos de definir alguma tipagem obrigatoria
+Para ver as configurações de extenção basta clicar em cima segurando o control
+Para ativar a tipagem do Express precisa realizar um importação, criar uma variavel e vincular a variavel
+  import express from 'express';
+  const app = express();
+  app.get('/', helloWorld);
+
+Caso contrario temos que importar as tipagem e depois vincular como abaixo
+  import {Request, Response} from 'express';
+  export function nomeDaFuncao(request: Request, response: Response) {}
