@@ -32,6 +32,10 @@ No site abaixo existe instruções para realizar as instalaçãoes nescessárias
 Depois devemos ativar o Yarn de forma global
   yarn global add react-native-cli
 
+Mais para frente a Rocketseat vai falar que não é bom ter o React Vative Cli
+como uma instalação global
+  yarn global remove react-native-cli
+
 Utilize o comando abaixo para verificar se o celular está conectado
   adb devices
 
